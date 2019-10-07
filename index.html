@@ -1,2 +1,232 @@
-myapp
-login
+
+<!DOCTYPE html><html lang="zh"><head data-node-id="n8f258be82b1846618f9f552fa9e77472">
+    <meta http-equiv="Cache-Control" content="no-transform" data-node-id="n0944013e98c94e9894df3e1af9b91e9c">
+    <meta http-equiv="Cache-Control" content="no-siteapp" data-node-id="n13aa0c6aa4d54227912573ccc514d820">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" data-node-id="neeec6f4d814544949c3bc72354798675">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" data-node-id="n926d55bf8ed74dd7a9834a7cfe70d5e4">
+    <meta http-equiv="pragma" content="no-cache" data-node-id="n3e2e17b02aec49998156851c064b75c3">
+    <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+    <meta http-equiv="expires" content="0">
+    <title data-node-id="nd80b502f88a14b3a9a8e14ee91504b20"></title>
+    <meta name="keywords" content="" data-node-id="nf375e9c2404d49b2b41f4bb7cea6c0b6">
+    <meta name="description" content="" data-node-id="n3bd19f1889ca41fda4a2d0db11c0261e">
+    <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" data-node-id="n30c1c85747a3485789774acc83cb58d9">
+    <link href="./css/index.css" rel="stylesheet" type="text/css" data-node-id="n4bfcf35e2ad04db9adeee00fe6848af0">
+    <script src="./js/jquery.min.js" type="text/javascript" data-node-id="n1dc9decf1cfa40ecbe9057ede8e0b128"></script>
+    <script src="./js/swiper.min.js" data-node-id="nce49b31cc5914252bb3b06a858d187f3"></script>
+</head>
+<body data-node-id="n39f8236ad5734975bba3a96cd1a64c46">
+<div class="wrap" data-node-id="n2f80bdf9dee34ba2a31e37c3b47be815">
+    <div class="blk" data-lavrock-order="1" data-yunque-section="头部" id="lavrock-head" data-node-id="na00aa12e430144ecbdb713241c11a796">
+        <header class="g-hd clearfix" data-node-id="n3a659500f4e743b38021a7fdd43d1c01">
+            <h1 data-node-id="n8e147175b35740878b34bc5ccd5c577c"><img src="images/logo.png" commom-id="logo" data-yunque-logo="yunque-logo" data-node-id="n19d19dabd6204eb7ba3f57df68030d28"></h1>
+            <div class="h_txt" data-node-id="nf4cd99f3900f4e39992c15ee538d6d06"><em data-node-id="n935deec7d89b4afc95b26c9b97d608eb">河南广拓装饰工程有限公司</em><span data-node-id="nbfa328916cec4a8db9c3152b5dd8bd06">致力成为中国建设领域一面靓丽的旗帜</span></div>
+            <div class="h_icon" data-node-id="n8104da37b59c44adad9f0a9048f2d0c1">
+                <span data-node-id="n40a63b361ed8424c8afe2d15ecf699bc"><img src="images/nav_icon.png" class="nsw-inline-exclude" data-node-id="n82c9320ed4f44346ab08ef9593bc182b"></span>
+                <em data-node-id="n869f776d012843d99c83e6cd1bc385a1"><img src="images/nav_icon2.png" class="nsw-inline-exclude" data-node-id="n443e797b616046e488af3d19bbe265ee"></em>
+            </div>
+            <div class="clear" data-node-id="n23d3f41ee11f4f088e82fdd0bdf31d6a"></div>
+            <div class="h_nav1" id="lavrock-nav" data-node-id="n12617ecd1951483686bd68c32e4dfc35">
+                <ul data-node-id="n1043ecbccda04cb7ac7fe3300f8f25db">
+                    <li data-nav-order="1" data-node-id="n049885dc2112444dafaca4e4ef262ee9">
+                        <a href="index.html" data-page-id="e20bcacab39840a9a1f67a59b3e4cb22" data-node-id="n7bbd34a64a194c568366f6fcac80bd36">广拓首页</a>
+                    </li>
+                    <li data-nav-order="2" data-node-id="ndaf185c3278d492ebb6224e949333c4c">
+                        <a href="product.html" data-page-id="06344dd9fd0c42b3ae7f28becfd2b077" data-node-id="n0c0582e0e95e498ebd5322cb162eae50">成功案例</a>
+                    </li>
+                    <li data-nav-order="3" data-node-id="ne5775e44645d4b26badbd09905deba1d">
+                        <a href="about.html" data-page-id="5be775343254411a8dbb5c6c75d00291" data-node-id="nbe08920e0496462182ccb1456ad2d2b4">走进广拓</a>
+                    </li></ul>
+            </div>
+            <script data-node-id="n924142ef478f42c786bd7283f239a0e9">
+                $(function() {
+                    $('.h_icon').on('click', function() {
+                        var navDom = $('.h_nav1');
+                        if(navDom.is(':hidden')) {
+                            $('html body').addClass('bodyhtml');
+                            $(this).find('span').toggle().next('em').toggle();
+                            navDom.slideToggle();
+                        } else {
+                            $(this).find('span').toggle().next('em').toggle();
+                            $('html body').removeClass('bodyhtml');
+                            navDom.slideToggle();
+                        }
+                    });
+                })
+            </script>
+        </header>
+    </div>
+    <section class="g-bd" data-node-id="n02819c590ed944e785d3ca0089df0dea">
+        <div class="blk" data-lavrock-order="2" data-yunque-section="广告" data-node-id="n5203b76399654b8d8daba78c0ad52edb">
+            <div class="g-adv swiper-container" data-node-id="na3b1d5debe67435d8535f5c0d93ecae3">
+                <ul class="swiper-wrapper" data-node-id="ncc0a313cfba84f2a99b8389b6c438bef">
+                    <li class="swiper-slide" data-node-id="n0d706d2953cf44dabd2e39a0ef9ee7c3"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841274620833.jpg" alt="" data-node-id="nc6ac498f962b43b490ef528152de3988"></li>
+                    <li class="swiper-slide" data-node-id="n8e2595a7d1e342308add5b4acec49465"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841290916407.jpg" alt="" data-node-id="n49f0b3cb66514914a0fb929910370a24"></li>
+                    <li class="swiper-slide" data-node-id="n89df2332962944c487c86c3ceffa4735"><img src="https://img1.cloudokids.cn/newimg/20181110/1541850282709361.jpg" alt="" data-node-id="n014fab75a37949a5b09598bbf74e848d"></li>
+                </ul>
+                <div class="adv-pagination" data-node-id="n508cf26986b0449591508a741223130e"></div>
+            </div>
+        </div>
+        <div class="blk" data-lavrock-order="3" data-yunque-section="产品中心" data-node-id="nac934c8bf20f4b21bdb1fec2b26673c1">
+            <div class="pro" data-node-id="n5fd0062c5b544bea84a06bcc01fae75f">
+                <div class="title" data-node-id="nbe595f87e0ae4932b390a3dcadfd874a">
+                    <span data-node-id="nc1e1d2bca1d24a74854b4700dfce8c6d">广拓案例中心</span>
+                    <em data-node-id="n62d8a8f23228440194824461ac680ab6">Case&nbsp;center</em>
+                </div>
+                <ul class="pro-box clearfix" data-node-id="na17443440f3d44678eb432936355ecf0">
+                    <li data-node-id="nf0be15a122244a83a0eb5444c436043e"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841071413578.jpg" alt="" data-node-id="n2d1ec086e5e1405fb1717478fa309dfe"><em data-node-id="n0b6dd4ca421840dc807fad2490254164">济南西站</em></li>
+                    <li data-node-id="n12d9a155773549f9a5d77764641ca689"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841093045714.jpg" alt="" data-node-id="nf72b5ad165b44ae5b5c7267ef3ce237b"><em data-node-id="nc4435c24737d4cff8dddfde1a3db5837">西安北站</em></li>
+                    <li data-node-id="n7e2fc43c843b4bd1a118419e208c9a63"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841129341908.jpg" alt="" data-node-id="n52fc7926bae04e40bf0eeda080596ce4"><em data-node-id="na8e8564ebf2441778a4cdd0cebaee644">郑州东站</em></li>
+                    <li data-node-id="n5043b8094d8448029fd368904b4b46f7"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841109003527.jpg" alt="" data-node-id="n69c34692e5fe4e58a02df53d9d36f9e3"><em data-node-id="n01feb131a3004b728c01d96ce845f9e2">杭州南站</em></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" blk" data-lavrock-order="7" data-yunque-section="案例" data-node-id="n1950c228d8ea4d85ad7c6a97c4c47d94">
+            <div class="anl" data-node-id="n447bfbd7510a44ed8eff9f2889fe5f61">
+                <div class="title" data-node-id="n65797ac7ba574846a8c69475601127ea"><span data-node-id="nd9420123bc314c419e30f1d3ad3d3199">历经多年&nbsp;多次保质保量完成项目</span><em data-node-id="n4574863b1cfc4421afaea0853ee0d159">建筑装饰公司必定有着深厚经验和作品积累！</em></div>
+                <div class="anl-box" data-node-id="n6ace8ce0e0b54941b8fdec3aa4d290c4">
+                    <ul class="anl-tab clearfix" data-node-id="ncc81cd03c49c4ca68dbf8426034dbb10">
+                        <li class="cur" data-node-id="n17b7053fa97647e497f4fe35dccd3273">西安北站</li>
+                        <li data-node-id="n176278cf37df436a83caf1f7e61ba20b">郑州东站</li>
+                        <li data-node-id="nd7b3a1a9a2384e2593692d4517dc0a3a">成都南站</li>
+                        <li data-node-id="n1893609308f9498bb0c3b25aba162128">济南西站</li>
+                        <li data-node-id="nf99db27a90a241fb9f845bfd1070166a">华山北站</li>
+                        <li data-node-id="n77ba86cae08a4295a94330e4227a0cd1">常州北站</li>
+                    </ul>
+                    <div class="anl-dx swiper-container" data-node-id="n2136749c06a845bb90612da593c6a2e5">
+                        <div class="swiper-wrapper" data-node-id="n049eb7e2ec34444d839c1c874d1c4724">
+                            <dl class="swiper-slide" data-node-id="nb4525e32d85f4722ace323253c477d0e">
+                                <dt data-node-id="ne1bb16d3266b4d77b70027137b52141e"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841149300559.jpg" alt="" data-node-id="n7540b26f82b2468bb5089159fd7e4107"></dt>
+                                <dd data-node-id="nf9d1b8886a1c458b91fc9f588f1d2be0">
+                                    <!--<h2 data-node-id="n3ccd5ebb6ecf4979b18572b2c270c9c4">&nbsp;&nbsp;</h2>-->
+                                    <!--<p data-node-id="n9993dedf06194b548e7fdbcb5996efef">&nbsp;&nbsp;</p>-->
+                                </dd>
+                            </dl>
+                            <dl class="swiper-slide" data-node-id="n7939d10071a049dcbe030833404d6343">
+                                <dt data-node-id="nce16c63961924470a520b7f707832037"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841170334386.jpg" alt="" data-node-id="ne30678c8393441fdaa353b09e593122d"></dt>
+                                <dd data-node-id="n205cdb19eace40a091762ddd0dc2164f">
+                                    <!--<h2 data-node-id="na8481bca363740f094a075951bacbd32">&nbsp;&nbsp;</h2>-->
+                                    <!--<p data-node-id="n7f76cbfbd312468f9bcddc1a68cdafa4">&nbsp;&nbsp;</p>-->
+                                </dd>
+                            </dl>
+                            <dl class="swiper-slide" data-node-id="ne6c94fd3b527484094dbf929ea51dfa5">
+                                <dt data-node-id="nd48c0929fd2842abbb9622277954bd78"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841187237508.jpg" alt="" data-node-id="n81411a8be3684e2eb03b3a4a62b4fcc9"></dt>
+                                <dd data-node-id="n270afd78b6c74cd7a3278bd0342722b8">
+                                    <!--<h2 data-node-id="naeade89541b64ef1a154afae3a7a763f">&nbsp;&nbsp;</h2>-->
+                                    <!--<p data-node-id="nb6fd046f15564b408f5041ec6874b3b2">&nbsp;&nbsp;</p>-->
+                                </dd>
+                            </dl>
+                            <dl class="swiper-slide" data-node-id="n53bccad0ac7c4c608d8efbcc97424128">
+                                <dt data-node-id="n84b8b141174e4581b1326e061adc890b"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841201900661.jpg" alt="" data-node-id="nb34be8d6629543c2bbde6c5a4d279bdb"></dt>
+                                <dd data-node-id="n9136d528c56442f092abf4c24a429835">
+                                    <!--<h2 data-node-id="nb389e9f24ac24eb28b73aeb2cdad26a6">&nbsp;&nbsp;</h2>-->
+                                    <!--<p data-node-id="ne39864589fe745fea503530576d377ea">&nbsp;&nbsp;</p>-->
+                                </dd>
+                            </dl>
+                            <dl class="swiper-slide" data-node-id="nf039250cbb514b71a9feb02e3e826a19">
+                                <dt data-node-id="n5b8cb80beb7e404fba964c0e89bc9c7f"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841224752277.jpg" alt="" data-node-id="n3f8a04357580440b8795f6746a113331"></dt>
+                                <dd data-node-id="nfdc718832c0b428291e5d97a31bb5926">
+                                    <!--<h2 data-node-id="nde198677bbf146699033751ad1cd8b70">&nbsp;&nbsp;</h2>-->
+                                    <!--<p data-node-id="nc89d34bd702046fab751e4c18c66b550">&nbsp;&nbsp;</p>-->
+                                </dd>
+                            </dl>
+                            <dl class="swiper-slide" data-node-id="na546ea7958334cd5b0fcacc87639a1bb">
+                                <dt data-node-id="n6684a55e5e144e2aaaf2d686e564d03e"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841241322176.jpg" alt="" data-node-id="nd6cc1a0666ac42538945508d829fba56"></dt>
+                                <dd data-node-id="n26e6d9787f724ba5b8ae14b1817e7835">
+                                    <!--<h2 data-node-id="nb79f5ee55b7d49769d7f239ce398ae91">&nbsp;&nbsp;</h2>-->
+                                    <!--<p data-node-id="ne99f2d7ffa324e43b26645ebfb456f95">&nbsp;&nbsp;</p>-->
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" blk" data-lavrock-order="8" data-yunque-section="关于我们" data-node-id="n17ea34b4efd846eab1e2900dc671972f">
+            <div class="abo" data-node-id="n5b353c14dc684647945c3d96d2e82d18">
+                <div class="title" data-node-id="ne0d75d9256ac4a96aa6fcaa4421f5c0c"><span data-node-id="n00f96c1bb7054a42b48b0987e8737471">走进广拓</span><em data-node-id="ne4e5237655d14173ba6cd8b0b8114a81">About GT</em></div>
+                <dl data-node-id="n4052c64b5b8544a38ca0512fc25ca06d">
+                    <dt data-node-id="ne4f9d184584c4e91a544e81062cb1fca"><img src="https://img1.cloudokids.cn/newimg/20181110/1541841004492833.jpg?version=9d81126b153843a5b2daaebe7cb6cbc7" alt="" data-node-id="n7e749d3a127e4711992f9ef2d4263a43"></dt>
+                    <dd data-node-id="n650e609cfd4d4746a69a035a1ae3c937">
+                        <h2 data-node-id="nde5ff909e42e481aa73d7f3f4a46b8cf"><span data-node-id="na9620b639d9f48dfaca48fe4a5f4f228">河南广拓装饰工程有限公司</span></h2>
+                        <p data-node-id="n00e18be8e8234706acaa864dfe9a3ffa">河南广拓装饰工程有限公司成立于2014年4月，是河南知名的装饰工程施工的企业，近年来，主要从事高铁站雨棚装饰吊顶，在此领域，已先后完成西安北站、郑州东站、杭州南站等20余项大型优质项目&nbsp;，&nbsp;公司在城市园林绿化，钢结构施工方向也有丰富的施工项目经验，实力浑厚，敬请合作。</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <div class="blk" data-lavrock-order="9" data-yunque-section="底部" id="lavrock-footer" data-node-id="nab4558e5be5c4707b128394cc48785a2">
+        <footer class="g-ft" data-node-id="ne0bfed5aea984f83bfbd2f190c78a484">
+            <div class="on-top" data-node-id="nc55031bd2c394ff19a1a4baa6c5fa55f"><img alt="" src="images/ontop.png" data-node-id="nf24da5fc585540e28338556ae0f4d949"></div>
+            <h2 data-node-id="n342cdc8d428c4c4e96c97b1ac752828b"><span commom-id="name" data-node-id="n3e974e0f4bc34316abaaa5fe4b9a58e8">河南广拓装饰工程有限公司</span></h2>
+            <div class="f_con" data-node-id="n20f14fe56d6a46d99d2a27c3fdafb284">
+                <p data-node-id="na48c8fc536bb429683f8c2e4d379aefb"><span data-node-id="n748c56af95e0479e8070760896c9731b">公司地址：</span><span commom-id="address" data-node-id="nb87897ca59904b08aef2e7d7aa5859fe">郑州市管城区郑尉路16号1号楼2单元6层25号</span></p>
+                <p data-node-id="n3163c039fd844425b34df1dcda5e8067"><span data-node-id="n6d574ff6068644ebb1e5fc090ef70d97">电话：</span><a href="13103783222" commom-id="tel" data-node-id="n9b48cdeaf6f54c56af1cdafbcd095123" title="13103783222" target="_self">13103783222</a></p>
+                <p data-node-id="n0311b147b0d744ad8e8f1ce296201b8a"><span data-node-id="n971a56d6f1aa4e87a9fc2356d1470bf7">邮箱：</span><span commom-id="mail" data-node-id="n69b396cb0bd44cfa8e2231974e4330ab">HNGTZS@163.com</span></p>
+                <p data-node-id="nebce61c206b043b5ae3caaa03bdb1520"><span data-node-id="nb58df4c02df3414cbc2c59f3fb3b6140">备案号：</span><a href="http://www.miitbeian.gov.cn/" target="_blank" commom-id="icp" data-node-id="nc6416cf4d12b45818effde113549f57f">豫ICP备15013641号</a></p>
+                <!--<p data-node-id="n9f8eee8907414b969fcceb4f7a448879"><a href="http://www.ilark.cn/#/" target="_blank" class="nsw-inline-exclude" data-node-id="n259d46473f9d4730bee6b2ada740e7c9">技术支持：牛商网</a></p>-->
+            </div>
+            <div class="code clearfix" data-node-id="n3beb0ec5470b49a78b545a2c0bfe0bf8">
+                <p data-node-id="nf4ca614af1af4f32b63fc734dd978126">
+                    <img src="images/code.png" alt="" data-node-id="n88a932b2bd904b228d8adade8396afb4">
+                </p>
+                <h4 data-node-id="nbc7a169bbcef499c9c7b51ff223ed5bd">
+                    <span data-node-id="n7c87f48531984193977d13f763d8490d">扫一扫</span>
+                    <em data-node-id="nfac736623ae54bc9b61ef314309083a9">联系我们</em>
+                </h4>
+            </div>
+            <div class="db_nav" data-node-id="n4576767f5a194f54bb9bbfe048887b82">
+                <ul class="clearfix" data-node-id="n6790130e51b74261a47ea762753ab348">
+                    <li data-node-id="n20d975f047da4c2e8a90bc7b55b5e0ec"><a href="tel:13103783222" data-node-id="nf7956fcecee5466c9027874d364dc0d6" title="电话咨询" target="_self">电话咨询</a></li>
+                    <li data-node-id="n90f3bf275005469286988b24ad3fa13c"><a href="./product.html" data-node-id="n539b368781914934b8e6d095b47de00e" title="成功案例" target="_self">成功案例</a></li>
+                    <li data-node-id="n096501d36a9b40298cdeb4c6e5d98259"><a href="./about.html" data-node-id="n87ba1382f6ae42548bba10196e8d5976" title="走进广拓" target="_self">走进广拓</a></li>
+                    <li data-node-id="n5c27f8c929de4ca1af0392f90f26a821"><a href="./index.html" data-node-id="nbe50ac768b374630b704c705ed8327a4" title="广拓首页" target="_self">广拓首页</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</div>
+<script type="text/javascript" data-node-id="n3c317f4a62e54e2a824f9949777718ac">
+    $(function () {
+        $('.g-adv').swiper({
+            autoplay: 3000,
+            pagination: '.adv-pagination',
+            paginationClickable: true,
+            paginationBulletRender: function(swiper, index, className) {
+                return '<span class="nsw-inline-exclude ' + index + '"></span>';
+            }
+        });
+        $('.sjs-box .swiper-container').swiper({
+            pagination: '.swiper-pagination',
+            slidesPerView: 3,
+            paginationClickable: true,
+            nextButton: '.sjs-box .swiper-button-next',
+            prevButton: '.sjs-box .swiper-button-prev',
+            spaceBetween: 1.5 + '%'
+        });
+        var yosSwiper = new Swiper('.anl-dx',{
+            effect : 'slide',
+            spaceBetween: 10,
+            onSlideChangeStart: function(){
+                $(".anl-tab .cur").removeClass('cur');
+                $(".anl-tab li").eq(yosSwiper.activeIndex).addClass('cur');
+            }
+        });
+        $(".anl-tab li").on('mouseover',function(){
+            $(this).addClass('cur').siblings('li').removeClass('cur');
+            yosSwiper.slideTo( $(this).index());
+        });
+        $('.on-top').on('click', function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+        })
+    })
+</script>
+
+
+
+
+<script data-edit="loaded-tag">var projPageData = {};</script></body></html>
